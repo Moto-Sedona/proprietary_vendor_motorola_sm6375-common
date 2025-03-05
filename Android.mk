@@ -4,6 +4,6 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),sm6375-common)
+ifneq ($(filter bangkk corfur fogos penang rhodep miami,$(TARGET_DEVICE)),)
 
 endif
