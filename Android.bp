@@ -51,10 +51,10 @@ android_app_import {
 	name: "CACertService",
 	owner: "motorola",
 	apk: "proprietary/vendor/app/CACertService/CACertService.apk",
+	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
 	},
-	certificate: "platform",
 	soc_specific: true,
 }
 
@@ -62,11 +62,11 @@ android_app_import {
 	name: "CneApp",
 	owner: "motorola",
 	apk: "proprietary/vendor/app/CneApp/CneApp.apk",
+	required: ["CneApp.libvndfwk_detect_jni.qti_symlink"],
+	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
 	},
-	required: ["CneApp.libvndfwk_detect_jni.qti_symlink"],
-	certificate: "platform",
 	soc_specific: true,
 }
 
@@ -74,10 +74,10 @@ android_app_import {
 	name: "IWlanService",
 	owner: "motorola",
 	apk: "proprietary/vendor/app/IWlanService/IWlanService.apk",
+	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
 	},
-	certificate: "platform",
 	soc_specific: true,
 }
 
@@ -85,10 +85,10 @@ android_app_import {
 	name: "TimeService",
 	owner: "motorola",
 	apk: "proprietary/vendor/app/TimeService/TimeService.apk",
+	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
 	},
-	certificate: "platform",
 	soc_specific: true,
 }
 
@@ -96,10 +96,10 @@ android_app_import {
 	name: "uimgbaservice",
 	owner: "motorola",
 	apk: "proprietary/product/app/uimgbaservice/uimgbaservice.apk",
+	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
 	},
-	certificate: "platform",
 	product_specific: true,
 }
 
@@ -107,11 +107,11 @@ android_app_import {
 	name: "EuiccGoogle",
 	owner: "motorola",
 	apk: "proprietary/product/priv-app/EuiccGoogle/EuiccGoogle.apk",
+	preprocessed: true,
+	presigned: true,
 	dex_preopt: {
 		enabled: false,
 	},
-	preprocessed: true,
-	presigned: true,
 	privileged: true,
 	product_specific: true,
 }
@@ -120,10 +120,10 @@ android_app_import {
 	name: "ImsRcsService",
 	owner: "motorola",
 	apk: "proprietary/system_ext/app/ImsRcsService/ImsRcsService.apk",
+	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
 	},
-	certificate: "platform",
 	system_ext_specific: true,
 }
 
@@ -131,10 +131,10 @@ android_app_import {
 	name: "QtiTelephonyService",
 	owner: "motorola",
 	apk: "proprietary/system_ext/app/QtiTelephonyService/QtiTelephonyService.apk",
+	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
 	},
-	certificate: "platform",
 	system_ext_specific: true,
 }
 
@@ -142,10 +142,10 @@ android_app_import {
 	name: "WfdService",
 	owner: "motorola",
 	apk: "proprietary/system_ext/priv-app/WfdService/WfdService.apk",
+	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
 	},
-	certificate: "platform",
 	privileged: true,
 	system_ext_specific: true,
 }
@@ -154,10 +154,10 @@ android_app_import {
 	name: "ims",
 	owner: "motorola",
 	apk: "proprietary/system_ext/priv-app/ims/ims.apk",
+	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
 	},
-	certificate: "platform",
 	privileged: true,
 	system_ext_specific: true,
 }
@@ -166,10 +166,10 @@ android_app_import {
 	name: "qcrilmsgtunnel",
 	owner: "motorola",
 	apk: "proprietary/system_ext/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk",
+	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
 	},
-	certificate: "platform",
 	privileged: true,
 	system_ext_specific: true,
 }
